@@ -33,6 +33,7 @@ client.monitors = new Map();
 
 // Self-ping fonksiyonu
 function startSelfPing() {
+    console.log(`Self-ping için kullanılacak URL: ${renderUrl}`); // URL'nin doğru olup olmadığını kontrol et
     setInterval(() => {
         http.get(renderUrl, (res) => {
             if (res.statusCode === 200) {
@@ -43,6 +44,7 @@ function startSelfPing() {
         });
     }, 300000); // 5 dakika
 }
+
 
 // Hata yakalama
 process.on('unhandledRejection', error => {
