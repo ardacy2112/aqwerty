@@ -1,5 +1,5 @@
 module.exports = {
-    token: process.env.DISCORD_TOKEN || 'MTM0NTc3MzY4NDAwNjMyMjIzNw.GY4WIx.aguZYupoWw8awcEIB0zBXxDbziRZ0Al3IzQ5PA',
+    token: process.env.DISCORD_TOKEN || 'MTM0NTc3MzY4NDAwNjMyMjIzNw.GiJ3HA.rd61y48gY8I8iAqhl63SS3SrVDCNeo-3J14Ypo',
     prefix: '!',
     embedColor: '#0099ff',
     owner: '1165320152540250283',
