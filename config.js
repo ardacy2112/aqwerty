@@ -4,6 +4,6 @@ module.exports = {
     embedColor: '#0099ff',
     owner: '1165320152540250283',
     uptimeInterval: 5 * 60 * 1000, // 5 dakika
-    maxWarnings: 3
+    maxWarnings: 3,
     renderUrl: process.env.RENDER_URL || 'https://gdbytr.onrender.com'
 };
